@@ -48,10 +48,18 @@
 	<input type="text" name="" required="" value="" autofocus="">
 
 	 <br />
-	 Drag and dromp js scripts
+	 Drag and drop js scripts
 	 <br />
+	 <div id="shoppingcart">
+	 	<header class="blockheader">Shopping cart</header>
+	 	<ul></ul>
+	 </div>
 
 
+	 <script>
+	 	document.addEventListener("DOMContentLoaded", addDnDHandlers, false);
+	 </script>
+	 
 	 <script src="app.js"></script>
 
 
